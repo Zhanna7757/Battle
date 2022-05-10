@@ -4,11 +4,11 @@ var view = {
         messageArea.innerHTML = m;
     },
     displayHit: function (location) {
-        var cell = document.getElementById(Location);
+        var cell = document.getElementById(location);
         cell.setAttribute("class", "hit");
     },
     displayMiss: function (location) {
-        var cell = document.getElementById(Location);
+        var cell = document.getElementById(location);
         cell.setAttribute("class", "miss");
 
     }
@@ -21,7 +21,7 @@ view.displayHit("12");
 view.displayMiss("25");
 view.displayHit("26");
 
-view.displayMessage("Tap tap, is this thing on?");
+view.displayMessage("New");
 
 
 
